@@ -1,0 +1,4 @@
+*.wim 
+*.iso 
+mount/ 
+media/ 
