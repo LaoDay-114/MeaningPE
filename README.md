@@ -54,7 +54,7 @@ copype amd64 C:\WinPE_temp
 
 ### 4. 生成 ISO
 ```cmd
-MakeWinPEMedia /ISO C:\WinPE_temp C:\MeaningPE\media\MeaningPE.iso
+oscdimg -m -o -u2 -lMeaningPE E:\MeaningPE\media E:\MeaningPE\MeaningPE_x64.iso
 ```
 
 ---
@@ -85,7 +85,7 @@ MakeWinPEMedia /ISO C:\WinPE_temp C:\MeaningPE\media\MeaningPE.iso
 ---
 
 **项目才刚刚开始，欢迎贡献想法或代码！** 
-Awa! - 2026.5.2 -- Write by zhdljc
+Awa! - 2026.5.2 -- Write by zhdljc & LaoDay-114
 ```
 
 这个 README 不过度承诺，清晰说明了目前只有哪些文件、如何使用它们、以及未来计划。你可以直接复制使用，并根据项目进展随时更新。
