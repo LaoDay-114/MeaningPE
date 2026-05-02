@@ -1,0 +1,25 @@
+你看到这里的时候就应该按照指示完成了创建项目目录
+
+首先你要在项目的文件夹里执行一下命令
+
+mkdir E:\MeaningPE\mount
+:: 挂载
+dism /mount-wim /wimfile:E:\MeaningPE\media\sources\boot.wim /index:1 /mountdir:E:\MeaningPE\mount
+
+接下来把MeaningPE(仓库里的，不是仓库目录) 这个文件夹放到一下路径
+
+<项目目录>mount\
+
+之后把 startnet.cmd 覆盖到这里
+
+<项目目录>mount\Windows\System32\startnet.cmd
+
+之后执行一下命令
+
+:: 卸载
+dism /unmount-wim /mountdir:E:\MeaningPE\mount /commit
+
+:: Build
+oscdimg -m -o -u2 -lMeaningPE E:\MeaningPE\media E:\MeaningPE\MeaningPE_x64.iso
+
+你就获得了一个MeaningPE🎉🎉🎉
