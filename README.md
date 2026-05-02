@@ -135,3 +135,4 @@ dism /Image:C:\WinPE_temp\mount /Add-Package /PackagePath:"C:\Program Files (x86
 **这个项目才刚刚开始，欢迎贡献想法或代码！** 
 Awa! - 2026.5.2 -- Write by zhdljc & LaoDay-114
 ```
+关于Shell这件事, 我感到无力; 我试图让WinXShell工作, 可是失败了.   ---LaoDay-114
